@@ -12,8 +12,7 @@ contract RealEstate {
     }
 
     Property[] public properties;
-
-    event LogNewProperty(
+ event LogNewProperty(
         uint id,
         string name,
         uint price,
@@ -22,7 +21,6 @@ contract RealEstate {
         bool forRent,
         address owner
     );
-
     event LogBuyProperty(
         uint id,
         address buyer,
